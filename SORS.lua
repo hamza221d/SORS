@@ -2022,7 +2022,7 @@ local name_t = {string.match(text, "^(تعطيل ملف) (.*)(.lua)$")}
 database:srem("files"..bot_id,name_t[2]..'.lua')
 send(msg.chat_id_, msg.id_, 1, "✖┇تم تعطيل {"..name_t[2]..".lua}", 1, 'html')
 end
-if (text:match("^(مسح الملفات)$"))then
+if (text:match("^(حذف الملفات)$"))then
 database:del("files"..bot_id)
 send(msg.chat_id_, msg.id_, 1, "🗑┇تم مسح الملفات", 1, 'html')
 end
