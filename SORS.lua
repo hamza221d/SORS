@@ -1867,9 +1867,9 @@ end
 if text:match("^تحديث السورس$") and tonumber(msg.sender_user_id_) == tonumber(sudo_add) then
 send(msg.chat_id_, msg.id_, 1, '🗂¦ تم تحديث السورس V2.1.1', 1, 'md')
 os.execute('rm -rf ./libs/utils.lua')
-os.execute('cd libs && wget https://raw.github.com/markstg/MARKSTG/master/libs/utils.lua')
-os.execute('rm -rf MARKSTG.lua')
-os.execute('wget https://raw.github.com/markstg/MARKSTG/master/MARKSTG.lua')
+os.execute('cd libs && wget https://raw.github.com/hamza221d/SORS/master/libs/utils.lua')
+os.execute('rm -rf SORS.lua')
+os.execute('wget https://raw.github.com/hamza221d/SORS/master/MARKSTG.lua')
 os.exit()
 return false
 end
