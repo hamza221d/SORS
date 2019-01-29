@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+cd SORS
+echo -e "\e[33m                                                     \e[0m"
+echo -e "\e[33m                      سورس DEVIL                      \e[0m"
+echo -e "\e[33m                       BY MARKS                        \e[0m"
+echo -e "\e[33m                         @P_PPPP حساب مطور السورس     \e[0m"
+echo -e "\e[33m                                                        \e[0m"
+while(true) do
+lua start.lua 
+done

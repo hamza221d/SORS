@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+cd SORS
+screen -S SORS -X kill
+screen -S SORS ./MaRkS
